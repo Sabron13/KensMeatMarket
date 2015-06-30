@@ -17,7 +17,7 @@ Product.create(name: 'Porterhouse Steak', description: 'The Grand-Daddy of \'em 
 Product.create(name: 'Cube Steak', description: 'Bread and fry to make a great country-fried steak.', category: 'Beef')
 Product.create(name: 'Sirloin Roast', description: 'Need a fancy slicing Roast, this is your guy.', category: 'Beef')
 Product.create(name: 'Rump Roast', description: 'Need a fancy slicing Roast, this is your guy.', category: 'Beef')
-Product.create(name: 'Filet Mignon', description: '<i>The</i> melt in your mouth steak.', category: 'Beef')
+Product.create(name: 'Filet Mignon', description: '<i>The</i> melt-in-your-mouth steak.', category: 'Beef')
 Product.create(name: 'Beef Ribs', description: 'These Beef Baby Back Ribs are great for flavoring soups and stews.', category: 'Beef')
 Product.create(name: 'Beef Femur Bones', description: 'These make great dog or soup bones.', category: 'Beef')
 Product.create(name: 'Ken\'s Beef Jerky', description: 'His own special recipe, this jerky isn\'t dry and brittle, but moist and chewy!', category: 'Beef')
