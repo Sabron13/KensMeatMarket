@@ -9,3 +9,7 @@ end
 get '/specials' do
   erb :specials
 end
+
+get '/hours' do
+  erb :hours
+end
