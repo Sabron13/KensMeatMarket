@@ -12,9 +12,7 @@ ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}
 li {margin: 0.3em auto;}
 ul {margin-left: .5em; padding-left: 0.5em;}
 dt {font-weight: bold;}
-img {border: none;}
-pre {border-left: 1px solid #ccc; margin-left: 0em; padding-left: 0.5em;}
-blockquote {padding: 0.3em; background-color: #E8F2F5; margin-left:0.5em; margin-right:0;}
+img {max-width: 100%; width: 100%;}
 th, td {border: 1px solid #ccc; padding: 0.3em;}
 th {background-color: #f0f0f0;}
 hr {border: none; border-top: 1px solid #E8F2F5; width: 100%;}
