@@ -24,7 +24,7 @@ del {text-decoration: line-through; color: #777777;}
 .center {margin-left: auto; margin-right: auto;}
 .fb-page { margin-left: 30%; width: 400px; height: 600px; position: relative;}
 
-footer { text-align: center; max-height: 100%; height: 100%; background-color: #272721; color: white; }
+footer { text-align: center; max-height: 100%; height: 100%; background-color: #272721; color: #AAA; }
 
 #content { width: 100%; }
 #map-canvas { margin: auto; width: 700px; height: 700px; }
