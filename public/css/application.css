@@ -30,8 +30,8 @@ footer { text-align: center; max-height: 100%; height: 100%; background-color: #
 #map-canvas { margin: auto; width: 700px; height: 700px; }
 
 a {
-    color: #36AECC;
-    text-decoration: none;
+     text-decoration: none;
+
 }
 
 a:visited {
