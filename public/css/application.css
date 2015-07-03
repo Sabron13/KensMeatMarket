@@ -1,50 +1,22 @@
 /* CSS declarations go here */
-body {font-family: Vollkorn; font-size: 120%; line-height: 120%; background-color: #272721}
-h1, h2, h3, h4, h5, h6 {font-family: Georgia; line-height:100%; margin-top: 0.5em; margin-bottom: 0.5em; color: #36AECC; font-style: italic; font-weight: 400;}
-h1 {font-size: 1.8em;}
-h2 {font-size: 1.6em;}
-h3 {font-size: 1.4em;}
-h4 {font-size: 1.3em;}
-h5 {font-size: 1.2em;}
-h6 {font-size: 1.1em;}
-p, pre, blockquote, table, ul, ol, dl {margin-top: .5em; margin-bottom: .5em;}
-ul ul, ul ol, ol ol, ol ul {margin-top: 0.5em; margin-bottom: 0.5em;}
-li {margin: 0.3em auto;}
-ul {margin-left: .5em; padding-left: 0.5em;}
-dt {font-weight: bold;}
-img {max-width: 100%; width: 100%;}
-th, td {border: 1px solid #ccc; padding: 0.3em;}
-th {background-color: #f0f0f0;}
+body {color: #AAA; font-family: Vollkorn; font-size: 120%; line-height: 120%; background-color: #272721; }
+
+img {max-width: 100%; width: 100%; }
+td { padding: 0.3em; color: #AAA;}
+tr {color: #AAA; border-bottom: 1px solid #FFDC00; border-top: 1px solid #FFDC00; border-collapse: collapse;}​
+th { color: #AAA; background-color: #f0f0f0; }
+table { margin: .5em auto .5em auto; }
 hr {border: none; border-top: 1px solid #FFDC00; width: 33%;}
-del {text-decoration: line-through; color: #777777;}
-.toc li {list-style-type: none;}
-.justleft {text-align: left;}
-.justright {text-align: right;}
-.justcenter {text-align: center;}
-.center {margin-left: auto; margin-right: auto;}
-.fb-page { margin-left: 36%; width: 400px; height: 600px; position: relative; border-bottom: 7px solid #272721; }
 
-footer { text-align: center; max-height: 100%; height: 100%; background-color: #272721; color: #AAA; }
+.fb-page { padding: 10px; border: 2px solid #AAA; margin-left: 36.2%; width: 400px; height: 600px; position: relative; }
+.img { display: inline-block; }
+.site-footer { text-align: center; max-height: 100%; height: 100%; background-color: #272721; color: #AAA; }
 
-#content { width: 100%; }
-#map-canvas { margin: auto; width: 700px; height: 700px; }
-
-a {
-     text-decoration: none;
-
-}
-
-a:visited {
-    color: #AAA;
-}
-
-a:hover {
-    color: #FFDC00;
-}
-
-.logo {
-  height: 2em;
-}
+#content { width: 100%; min-height: 100%; margin-bottom: -150px; }
+#map-canvas { border: 2px solid #AAA; margin: auto; width: 700px; height: 700px; }
+a { text-decoration: none; }
+a:visited { color: #AAA; }
+a:hover { color: #FFDC00; }
 
 code {
     font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
