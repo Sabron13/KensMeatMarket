@@ -1,11 +1,13 @@
 <table class="product-table">
   <tr> <th> Product </th>
        <th> Description </th>
+       <th> Category </th>
   </tr>
   <% @products.each do |product| %>
   <tr> 
-    <td> <%= product.name %> </div> </td>
-    <td> <%= product.description %> </div> </td>
+    <td> <%= product.name %> </td>
+    <td> <%= product.description %> </td>
+    <td> <%= product.category %> </td>
   </tr>
   <% end %>
 </table>
