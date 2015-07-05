@@ -10,9 +10,10 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 
 .fb-page { 
     margin-left: 35.2%;
-    padding: 10px;
-    background: #272721;
-    border: 2px solid #FFDC00;
+    padding: 1px;
+    background: #AAA;
+    border: 5px ridge #FFDC00;
+    box-shadow: 2px 2px 2px #888888;
     margin-bottom: 10px;
 }
 
