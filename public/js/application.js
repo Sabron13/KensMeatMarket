@@ -17,6 +17,16 @@ $(document).ready(function() {
   }
   google.maps.event.addDomListener(window, 'load', initialize);
 
-  //facebook sdk
+  $('#category').click(function(event) {
+    event.preventDefault();
+    var $target = $(event.target);
+    $.ajax({
+      url: $target.attr("href"),
+      type: 'GET'
+    }).done(function(response){
+      console.log(response)
+      $("#product-wrapper").html(response);
+    });
+  });
   
 });
