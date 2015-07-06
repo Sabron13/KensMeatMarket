@@ -13,6 +13,10 @@ get '/products/category' do
 end
 
 get '/products/description' do
-  @products = Product.find_by_sql("SELECT * FROM products ORDER BY products.description")
-  erb :'/products/index'
+  if request.xhr?
+    @products = Product.find_by_sql("SELECT * FROM products ORDER BY products.description")
+    erb :'/products/index', layout: false
+  else
+    p "expect the unexpected"
+  end
 end
