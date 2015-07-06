@@ -1,13 +1,17 @@
-<table class="product-table">
-  <tr> <th> Product </th>
-       <th> Description </th>
-       <th> Category </th>
-  </tr>
-  <% @products.each do |product| %>
-    <tr> 
-      <td> <%= product.name %> </td>
-      <td> <%= product.description %> </td>
-      <td> <%= product.category %> </td>
+<div id="product-wrapper">
+  <p>This is not a comprehensive list.</p>
+
+  <table class="product-table">
+    <tr> <th id="product"><a href="/products/index">Product</a></th>
+         <th id ="description"><a href="/products/description">Description</a></th>
+         <th id = "category"><a href="/products/category">Category</a></th>
     </tr>
-  <% end %>
-</table>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= product.description %></td>
+        <td><%= product.category %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
