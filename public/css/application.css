@@ -36,7 +36,7 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 .img { display: inline-block; }
 .centered { text-align: center; }
 
-#info { width: 600px; margin: auto; color: black; }
+#info { width: 600px; margin: auto; }
 #directions { margin: auto; width: 700px; }
 #content { width: 100%; }
 #map-canvas { border: 2px solid #AAA; margin: auto; width: 700px; height: 700px; margin-bottom: 12px;}
