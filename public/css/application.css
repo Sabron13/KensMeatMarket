@@ -1,6 +1,6 @@
 /* CSS declarations go here */
-body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; }
-
+html { position: relative; min-height: 100% }
+body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; margin-bottom: 107.5px}
 img { max-width: 100%; width: 100%; }
 td { padding: 0.3em; }
 tr { border-bottom: 2px solid #FFDC00; border-top: 2px solid #FFDC00; border-collapse: collapse; }​
@@ -18,6 +18,9 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 }
 
 .site-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     max-height: 100%;
     height: 100%;
