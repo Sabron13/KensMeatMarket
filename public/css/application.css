@@ -2,11 +2,10 @@
 body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; }
 
 img { max-width: 100%; width: 100%; }
-td { padding: 0.3em; color: #AAA;}
-tr { color: #AAA; border-bottom: 2px solid #FFDC00; border-top: 2px solid #FFDC00; border-collapse: collapse; }​
-th { color: #AAA; background-color: #F0F0F0; }
+td { padding: 0.3em; }
+tr { border-bottom: 2px solid #FFDC00; border-top: 2px solid #FFDC00; border-collapse: collapse; }​
+th { background-color: #F0F0F0; }
 table { margin: .5em auto .5em auto; }
-table.product-table td { color: black; }
 hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 
 .fb-page { 
