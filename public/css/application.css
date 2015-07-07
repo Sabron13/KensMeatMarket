@@ -1,5 +1,5 @@
 /* CSS declarations go here */
-body { color: #AAA; font-family: Vollkorn; font-size: 120%; line-height: 120%; }
+body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; }
 
 img { max-width: 100%; width: 100%; }
 td { padding: 0.3em; color: #AAA;}
