@@ -40,7 +40,6 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 #directions { margin: auto; width: 700px; }
 #content { width: 100%; }
 #map-canvas { border: 2px solid #AAA; margin: auto; width: 700px; height: 700px; margin-bottom: 12px;}
-#notice { color: black; }
 
 a { text-decoration: none; }
 a:visited { color: #AAA; }
