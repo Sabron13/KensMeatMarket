@@ -10,6 +10,6 @@ get '/specials' do
   erb :specials
 end
 
-get '/hours' do
-  erb :hours
+get '/info' do
+  erb :info
 end
