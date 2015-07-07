@@ -25,6 +25,9 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
     background-color: #272721;
     padding-top: 5px;
     margin-top: -7px;
+    padding-bottom: 5px;
+    color: #AAA;
+    height: 107.5px;
 }
 
 .site-footer table {
