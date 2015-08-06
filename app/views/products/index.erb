@@ -1,19 +1,14 @@
 <div id="product-wrapper">
   <p>This is not a comprehensive list. Call in for pricing: (260) 749-7444.</p>
 
-  <table class="product-table">
-    <tr> <th id="product"><a href="/products/index">Product</a></th>
-         <th id ="description"><a href="/products/description">Description</a></th>
-         <th id = "category"><a href="/products/category">Category</a></th>
-    </tr>
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.name %></td>
-        <td><%= product.description %></td>
-        <td><%= product.category %></td>
-      </tr>
-    <% end %>
-  </table>
+  <% @products.each do |product| %>
+    <div class="small-4 columns">
+      <%= product.name %><br>
+      <%= product.category %><br>
+      <img src="<%= product.photo_path %>">
+    </div>
+
+  <% end %>
 </div>
 
 <script src="/js/products.js"></script>
