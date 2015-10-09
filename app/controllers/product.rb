@@ -3,7 +3,7 @@ get '/products/index' do
   if request.xhr?
     erb :'/products/index', layout: false 
   else
-    erb :'products/index'
+    erb :'/products/index' 
   end
 end
 
