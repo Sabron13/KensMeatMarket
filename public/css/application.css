@@ -10,10 +10,6 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 
 .fb-page { 
     margin-left: 35.8%;
-    padding: 1px;
-    background: #AAA;
-    border: 5px ridge #FFDC00;
-    box-shadow: 2px 2px 2px #888888;
     margin-bottom: 10px;
 }
 
@@ -42,10 +38,11 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 #info { width: 600px; margin: auto; }
 #directions { margin: auto; width: 700px; }
 #content { width: 100%; }
-#map-canvas { border: 5px ridge #FFDC00; margin: auto; width: 700px; height: 700px; }
+#map-canvas { margin: auto; margin-bottom: 100px; width: 700px; height: 700px; }
 #reorder { width: 100%; text-align: center; color: #AAA; }
 
 a { text-decoration: none; }
 a:visited { color: #AAA; }
 a:hover { color: #FFDC00; }
 a:active { text-shadow: -4px -4px #000000; }
+
