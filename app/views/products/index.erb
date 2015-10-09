@@ -1,3 +1,6 @@
+
+<div id="product-wrapper">
+
 <p>This is not a comprehensive list. Call in for pricing: (260) 749-7444.</p>
 
 <div id="reorder">
@@ -5,13 +8,10 @@
   <a id="category" href="/products/category">category</a>
 </div>
 
-<div id="product-wrapper">
-
-
   <% @products.each do |product| %>
     <div class="small-4 columns">
       <%= product.name %><br>
-      <%= product.category %><br>
+      <div class="description"><%= product.category %><br><%=product.description%></div>
       <img src="<%= product.photo_path %>">
     </div>
   <% end %>
