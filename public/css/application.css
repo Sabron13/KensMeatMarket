@@ -34,6 +34,7 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 
 .img { display: inline-block; }
 .centered { text-align: center; }
+.description { display:none; background:white; opacity:.5; position:absolute; }
 
 #info { width: 600px; margin: auto; }
 #directions { margin: auto; width: 700px; }
