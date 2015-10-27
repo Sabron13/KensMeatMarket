@@ -1,20 +1,25 @@
-
 <div id="product-wrapper">
 
-<p>This is not a comprehensive list. Call in for pricing: (260) 749-7444.</p>
+  <p>This is not a complete list. Call in for pricing: (260) 749-7444.</p>
 
-<div id="reorder">
-  <a id="product" href="/products/index">alphabetical</a> | 
-  <a id="category" href="/products/category">category</a>
-</div>
+  <div id="reorder">
+    <a id="product" href="/products/index">alphabetical</a> | 
+    <a id="category" href="/products/category">category</a>
+  </div>
 
   <% @products.each do |product| %>
     <div class="small-4 columns">
       <%= product.name %><br>
-      <div class="description"><%= product.category %><br><%=product.description%></div>
+      <div class="description">
+        <%= product.category %><br>
+        <%=product.description%>
+      </div>
       <img src="<%= product.photo_path %>">
     </div>
   <% end %>
+
+  <p> </p>
+
 </div>
 
 <script src="/js/products.js"></script>
