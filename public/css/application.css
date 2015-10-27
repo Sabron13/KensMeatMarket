@@ -22,7 +22,7 @@ header h1 { color: #990000; }
 #map-canvas { width: 560px; height: 500px; }
 #product-wrapper { display: inline-block; }
 #reorder { width: 100%; text-align: center; color: #AAA; }
-#splash-page { overflow-y: scroll; }
+#fb-link { padding: 5px; text-align: center;}
 
 
 a { text-decoration: none; }
