@@ -1,5 +1,5 @@
 get '/' do
-  erb :index
+  erb :splash, layout: false
 end
 
 get '/map' do
@@ -10,6 +10,6 @@ get '/specials' do
   erb :specials
 end
 
-get '/info' do
-  erb :info
+get '/index' do
+  erb :index
 end
