@@ -7,9 +7,8 @@ table { margin: .5em auto .5em auto; }
 hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 header h1 { color: #990000; }
 
-.fb-page { 
-    margin-left: 35.8%;
-    margin-bottom: 10px;
+.large-4.columns {
+   float: right;
 }
 
 .site-header {
