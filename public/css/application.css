@@ -19,7 +19,7 @@ header h1 { color: #990000; }
 #hours { padding: 5px; border: 2px solid black; margin-bottom: 10px; }
 #directions-map { border: 2px solid black; padding: 20px;}
 #content { width: 100%; }
-#map-canvas { margin: auto; margin-bottom: 100px; width: 700px; height: 700px; }
+#map-canvas { width: 560px; height: 500px; }
 #product-wrapper { display: inline-block; }
 #reorder { width: 100%; text-align: center; color: #AAA; }
 #splash-page { overflow-y: scroll; }
