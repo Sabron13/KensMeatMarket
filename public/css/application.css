@@ -37,10 +37,13 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 #directions { margin: auto; width: 700px; }
 #content { width: 100%; }
 #map-canvas { margin: auto; margin-bottom: 100px; width: 700px; height: 700px; }
+#product-wrapper { display: inline-block; }
 #reorder { width: 100%; text-align: center; color: #AAA; }
+#splash-page { overflow-y: scroll; }
+
 
 a { text-decoration: none; }
-a:visited { color: #AAA; }
+a:visited { color: #FFDC00; }
 a:hover { color: #FFDC00; }
-a:active { text-shadow: -4px -4px #000000; }
+a:active { color: #990000; }
 
