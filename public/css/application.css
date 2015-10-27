@@ -14,20 +14,10 @@ header h1 { color: #990000; }
 .description { display: none; background: white; opacity: .5; position: absolute; margin: 0 auto; }
 .yellow { color: #FFDC00;}
 
-}
-
-/*.site-footer table {
-    margin: auto;
-    border-bottom: 2px solid #FFDC00;
-    border-top: 2px solid #FFDC00;
-    border-collapse: collapse;
-}*/
-
-.centered { text-align: center; }
-.description { display:none; background:white; opacity:.5; position:absolute; }
-
-#info { width: 600px; margin: auto; }
-#directions { margin: auto; width: 700px; }
+#splash { border-top: 20px solid #1A1A1A; border-bottom: 20px solid #1A1A1A; }
+#info { width: 600px; display: inline-block; text-align: center;}
+#hours { padding: 5px; border: 2px solid black; margin-bottom: 10px; }
+#directions-map { border: 2px solid black; padding: 20px;}
 #content { width: 100%; }
 #map-canvas { margin: auto; margin-bottom: 100px; width: 700px; height: 700px; }
 #product-wrapper { display: inline-block; }
