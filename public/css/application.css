@@ -1,6 +1,6 @@
 /* CSS declarations go here */
 html { position: relative; min-height: 100% }
-body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; }
+body { color: black; font-family: Vollkorn; font-size: 120%; line-height: 120%; margin-left: 15%; margin-right: 15%;}
 img { max-width: 100%; width: 100%; }
 td { padding: 0.3em; }
 th { background-color: #F0F0F0; }
