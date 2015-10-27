@@ -24,26 +24,19 @@
   <title>Ken's Meat Market</title>
 </head>
 <body>
-  <header>
-    
-  </header>
-  <div id="content">
-    <%= yield %>
-  </div>
-  <footer class="site-footer">
+  <header class='site-header'>
     <table>
       <tr>
         <td><a href="/specials">specials</a></td>
         <td><a href="/info">info</a></td>
-      </tr>
-    </table>
-    <table>
-      <tr>
         <td><a href="/map">map</a></td>
         <td><a href="/products/index">products</a></td>
         <td><a href="/">home</a></td>
       </tr>
     </table>
-  </footer>
+  </header>
+  <div id="content">
+    <%= yield %>
+  </div>
 </body>
 </html>
