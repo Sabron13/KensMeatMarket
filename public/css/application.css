@@ -12,26 +12,24 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
     margin-bottom: 10px;
 }
 
-.site-footer {
-    position: fixed;
-    bottom: 0;
+.site-header {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 100%;
     text-align: center;
-    background-color: #272721;
-    padding-top: 5px;
-    margin-top: -7px;
-    padding-bottom: 5px;
-    color: #AAA;
-    height: 107.5px;
+    background: linear-gradient(to right, #B8DDEC , #FFFDFF 60%);
+    color: #FFDC00;
+
 }
 
-.site-footer table {
+/*.site-footer table {
+    margin: auto;
     border-bottom: 2px solid #FFDC00;
     border-top: 2px solid #FFDC00;
     border-collapse: collapse;
-}
+}*/
 
-.img { display: inline-block; }
 .centered { text-align: center; }
 .description { display:none; background:white; opacity:.5; position:absolute; }
 
