@@ -5,11 +5,10 @@ img { max-width: 100%; width: 100%; }
 td { padding: 0.3em; width: 20%;}
 table { margin: .5em auto .5em auto; }
 hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
-header h1 { color: #990000; }
 
-.large-4.columns {
-   float: right;
-}
+.large-4.columns { float: right; }
+.fancy-font {display: inline-block; color: #990000; font-size: 72px; font-family: brush script mt;}
+.strong-font {display: inline-block; color: #000000; font-size: 56px; font-family: superclarendon;}
 
 .description { display: none; background: white; opacity: .5; position: absolute; margin: 0 auto; }
 .yellow { color: #FFDC00;}
