@@ -12,7 +12,7 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 
 .description { display: none; background: white; opacity: .5; position: absolute; margin: 0 auto; }
 
-#splash { border-top: 20px solid #1A1A1A; border-bottom: 20px solid #1A1A1A; }
+#store-name { text-align: center; margin-bottom: -35px;}
 #info { width: 600px; display: inline-block; text-align: center;}
 #hours { padding: 5px; border: 2px solid black; margin-bottom: 10px; }
 #directions-map { border: 2px solid black; padding: 20px;}
