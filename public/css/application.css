@@ -20,7 +20,8 @@ hr { border: none; border-top: 1px solid #FFDC00; width: 33%; }
 #map-canvas { width: 560px; height: 500px; }
 #product-wrapper { display: inline-block; }
 #reorder { width: 100%; text-align: center; color: #AAA; }
-#fb-link { padding: 5px; text-align: center;}
+#fb-link { padding: 5px; text-align: center; padding: 5px; border: 2px solid #FFDC00; margin-bottom: 10px; background: rgba(255, 255, 255, 0.7); }
+#sub-header { margin: 0 auto; background: rgba(255,255,255,0.7); margin-bottom: 10px; display: flex; justify-content: space-between; padding-left: 15px; padding-right: 15px;}
 
 
 a { text-decoration: none; }
