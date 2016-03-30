@@ -15,6 +15,7 @@ gem 'rake'
 gem 'dotenv'
 
 gem 'shotgun'
+gem 'pony'
 
 group :test do
   gem 'database_cleaner', '~> 1.4.1'
